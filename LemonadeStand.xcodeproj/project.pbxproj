@@ -14,6 +14,7 @@
 		661241FD1B3C074A000297C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661241FB1B3C074A000297C4 /* LaunchScreen.xib */; };
 		661242091B3C074A000297C4 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661242081B3C074A000297C4 /* LemonadeStandTests.swift */; };
 		661242131B3C2022000297C4 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661242121B3C2022000297C4 /* Supplies.swift */; };
+		661242151B3C217D000297C4 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661242141B3C217D000297C4 /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		661242071B3C074A000297C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		661242081B3C074A000297C4 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
 		661242121B3C2022000297C4 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		661242141B3C217D000297C4 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				661241F21B3C074A000297C4 /* AppDelegate.swift */,
 				661241F41B3C074A000297C4 /* ViewController.swift */,
 				661242121B3C2022000297C4 /* Supplies.swift */,
+				661242141B3C217D000297C4 /* Price.swift */,
 				661241F61B3C074A000297C4 /* Main.storyboard */,
 				661241F91B3C074A000297C4 /* Images.xcassets */,
 				661241FB1B3C074A000297C4 /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				661241F51B3C074A000297C4 /* ViewController.swift in Sources */,
+				661242151B3C217D000297C4 /* Price.swift in Sources */,
 				661242131B3C2022000297C4 /* Supplies.swift in Sources */,
 				661241F31B3C074A000297C4 /* AppDelegate.swift in Sources */,
 			);
@@ -276,7 +280,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -321,7 +326,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -346,7 +352,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = LemonadeStand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,7 +364,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = LemonadeStand/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
